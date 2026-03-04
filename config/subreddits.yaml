@@ -1,0 +1,50 @@
+# Target subreddits for Reddit Trend Analyzer
+# All subreddits listed here must be public
+
+subreddits:
+  - name: sales
+    category: sales
+    enabled: true
+
+  - name: marketing
+    category: marketing
+    enabled: true
+
+  - name: B2BMarketing
+    category: marketing
+    enabled: true
+
+  - name: SaaS
+    category: product
+    enabled: true
+
+  - name: startups
+    category: business
+    enabled: true
+
+  - name: Entrepreneur
+    category: business
+    enabled: true
+
+  - name: digital_marketing
+    category: marketing
+    enabled: true
+
+  - name: growthmarketing
+    category: marketing
+    enabled: true
+
+  - name: recruiting
+    category: hr
+    enabled: true
+
+  - name: humanresources
+    category: hr
+    enabled: true
+
+fetch:
+  posts_per_subreddit: 25
+  sort_options:
+    - hot
+    - new
+  time_filter: week
